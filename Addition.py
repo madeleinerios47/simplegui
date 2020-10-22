@@ -4,7 +4,9 @@ import tkinter.messagebox
 class GUI_Beginners:
     def __init__(self, root):
         self.root = root
-       
+       self.root.title("Addition")
+ self.root.geometry("600x300+0+0")
+add this above both lines
         
         frame1 = Frame(self.root)
         frame1.grid()
